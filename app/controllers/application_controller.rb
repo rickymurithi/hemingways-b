@@ -8,7 +8,10 @@ class ApplicationController < Sinatra::Base
     feedback = Feedback.all
     feedback.to_json
   end
-
+  get "/bookings" do
+    booking = Booking.all
+    booking.to_json
+  end
 end
 
 

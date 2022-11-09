@@ -16,7 +16,10 @@ class ApplicationController < Sinatra::Base
     feedback = Feedback.find(params[:id])
     feedback.to_json
   end
- 
+  get "/bookings/:id" do
+    booking = Booking.find(params[:id])
+    booking.to_json
+  end
 end
 
 

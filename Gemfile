@@ -10,6 +10,8 @@ gem "thin", "~> 1.8"
 
 gem "faker"
 
+gem "psych"
+
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
 gem "rack-contrib", "~> 2.3"

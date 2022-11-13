@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2022_11_08_072612) do
 
   create_table "bookings", force: :cascade do |t|
-    t.string "name"
+    t.string "Name"
     t.string "email"
     t.string "phone_number"
     t.string "suite"
